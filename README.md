@@ -30,12 +30,15 @@ Age
 
 # 🖥️ Running Locally
 1. Clone the repository
-   git clone https://github.com/your-username/nadi-diabetes-predictor.git
+   '''sh
+   git clone https://github.com/AbuZar-Ansarii/Nadi-Diabetes.git
    cd nadi-diabetes-predictor
-2. Install dependencies
+3. Install dependencies
+   '''sh
    pip install -r requirements.txt
    
 # 🐳 Running with Docker
+   '''sh
    docker build -t abuzar718/nadi .
    
 
