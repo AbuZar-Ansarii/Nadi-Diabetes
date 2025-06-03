@@ -8,9 +8,14 @@ This project processes nadi pulse data collected from an optical sensor and pred
 ![Screenshot (40)](https://github.com/user-attachments/assets/9ed672b9-7baa-48cf-bd07-83e9fb07295c)
 
 # 📂 Sample Input Format (nadi_data.txt)
+```sh
 Start nPULSE001
 2394,874,1492
 2084,1021,1407
+1500,1034,1901
+2394,874,1492
+2084,1021,1407
+1500,1034,1901
 ...
 # 🧠 Features Used for Prediction
 Channel 1, 2, 3 statistics:
@@ -30,15 +35,15 @@ Age
 
 # 🖥️ Running Locally
 1. Clone the repository
-   '''sh
+  ```sh
    git clone https://github.com/AbuZar-Ansarii/Nadi-Diabetes.git
    cd nadi-diabetes-predictor
 3. Install dependencies
-   '''sh
+  ```sh
    pip install -r requirements.txt
    
 # 🐳 Running with Docker
-   '''sh
+  ```sh
    docker build -t abuzar718/nadi .
    
 
