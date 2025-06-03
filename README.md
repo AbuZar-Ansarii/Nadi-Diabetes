@@ -1,17 +1,18 @@
-🧬 Nadi Pulse Diabetes Predictor
+# 🧬 Nadi Pulse Diabetes Predictor
 A Streamlit-based web application that uses optical sensor pulse data to predict diabetes using a trained machine learning model.
+This project processes nadi pulse data collected from an optical sensor and predicts diabetes using statistical features extracted from the pulse signals (3 channels). The app is built using Streamlit, and the model is trained using scikit-learn.
+
 ![Screenshot (37)](https://github.com/user-attachments/assets/9a4fe3c3-efbd-4aca-87b6-d0e7532c5199)
 ![Screenshot (38)](https://github.com/user-attachments/assets/fa11bec1-6f94-4e6a-824d-cbf8f7fde94c)
 ![Screenshot (39)](https://github.com/user-attachments/assets/6dace517-1519-4a1c-96ac-6f927724c682)
 ![Screenshot (40)](https://github.com/user-attachments/assets/9ed672b9-7baa-48cf-bd07-83e9fb07295c)
 
-This project processes nadi pulse data collected from an optical sensor and predicts diabetes using statistical features extracted from the pulse signals (3 channels). The app is built using Streamlit, and the model is trained using scikit-learn.
-📂 Sample Input Format (nadi_data.txt)
+# 📂 Sample Input Format (nadi_data.txt)
 Start nPULSE001
 2394,874,1492
 2084,1021,1407
 ...
-🧠 Features Used for Prediction
+# 🧠 Features Used for Prediction
 Channel 1, 2, 3 statistics:
 
 Mean, Standard Deviation, Min, Max, Skewness
@@ -20,21 +21,21 @@ User Input:
 
 Age
 
-🧪 Prediction Output
+# 🧪 Prediction Output
 ✅ Healthy (Diabetes under control)
 
 🤒 Diabetes - Not Controlled
 
 🤒 Other Diseases like Anemia
 
-🖥️ Running Locally
+# 🖥️ Running Locally
 1. Clone the repository
    git clone https://github.com/your-username/nadi-diabetes-predictor.git
    cd nadi-diabetes-predictor
 2. Install dependencies
    pip install -r requirements.txt
    
-🐳 Running with Docker
+# 🐳 Running with Docker
    docker build -t abuzar718/nadi .
    
 
