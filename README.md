@@ -32,7 +32,7 @@ Start nPULSE001
 2084,1021,1407
 1500,1034,1901
 ...
-
+       ```sh
 # 🖥️ Running Locally
 1. Clone the repository
 ```sh
@@ -43,8 +43,10 @@ Start nPULSE001
    pip install -r requirements.txt
    
 # 🐳 Running with Docker
-```sh
+
    docker build -t abuzar718/nadi .
+
+   docker run -p 8501:8501 abuzar718/nadi.
    
 
 
