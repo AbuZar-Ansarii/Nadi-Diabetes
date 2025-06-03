@@ -33,11 +33,9 @@ Start nPULSE001
 1500,1034,1901
 ...
 
-
-
 # 🖥️ Running Locally
 1. Clone the repository
-  ```sh
+```sh
    git clone https://github.com/AbuZar-Ansarii/Nadi-Diabetes.git
    cd nadi-diabetes-predictor
 3. Install dependencies
@@ -45,7 +43,7 @@ Start nPULSE001
    pip install -r requirements.txt
    
 # 🐳 Running with Docker
-  ```sh
+```sh
    docker build -t abuzar718/nadi .
    
 
