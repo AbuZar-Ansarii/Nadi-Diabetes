@@ -7,16 +7,6 @@ This project processes nadi pulse data collected from an optical sensor and pred
 ![Screenshot (39)](https://github.com/user-attachments/assets/6dace517-1519-4a1c-96ac-6f927724c682)
 ![Screenshot (40)](https://github.com/user-attachments/assets/9ed672b9-7baa-48cf-bd07-83e9fb07295c)
 
-# 📂 Sample Input Format (nadi_data.txt)
-```sh
-Start nPULSE001
-2394,874,1492
-2084,1021,1407
-1500,1034,1901
-2394,874,1492
-2084,1021,1407
-1500,1034,1901
-...
 # 🧠 Features Used for Prediction
 Channel 1, 2, 3 statistics:
 
@@ -32,6 +22,18 @@ Age
 🤒 Diabetes - Not Controlled
 
 🤒 Other Diseases like Anemia
+# 📂 Sample Input Format (nadi_data.txt)
+```sh
+Start nPULSE001
+2394,874,1492
+2084,1021,1407
+1500,1034,1901
+2394,874,1492
+2084,1021,1407
+1500,1034,1901
+...
+
+
 
 # 🖥️ Running Locally
 1. Clone the repository
